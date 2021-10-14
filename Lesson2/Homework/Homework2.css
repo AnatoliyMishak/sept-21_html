@@ -1,0 +1,29 @@
+body {
+    background: #f6e385;
+}
+h1, h2 {
+    text-align: center;
+    color: #2da07f;
+}
+img {
+    width: 200px;
+    border: 10px solid #1f27c4;
+}
+p {
+    text-align: justify;
+}
+.center-img{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+li{
+    font-size: 20px;
+}
+.rightimg  {
+    float: right;
+margin: 7px 0 7px 7px;}
