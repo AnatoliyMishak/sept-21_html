@@ -11,7 +11,9 @@
         body {
             margin: 0;
         }
-
+        h3 {
+            text-align: center;
+                    }
         .footer {
             box-sizing: border-box;
             border: 2px solid black;
@@ -22,6 +24,7 @@
             font-size: 30px;
             padding-top: 25px;
         }
+
         .description {
             border-radius: 10px;
             box-sizing: border-box;
@@ -30,9 +33,47 @@
             border: 2px solid red;
             text-align: justify;
         }
-        .rightimg  {
+
+        .rightimg {
             float: right;
-            margin: 0 0 7px 2px;}
+            margin: 0 0 7px 2px;
+        }
+        .tool {
+            box-sizing: border-box;
+            border: 2px solid green;
+            background: #f6e385;
+            height: 100px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 30px;
+            padding-top: 18px;
+        }
+        .team {
+            background: bisque;
+            box-sizing: border-box;
+            border: 2px solid blue;
+            border-radius: 15px;
+            text-align: justify;
+        }
+        .wrap {
+            box-sizing: border-box;
+            height: 300px;
+            border: 2px solid deeppink;
+            background: pink;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .coach {
+            box-sizing: border-box;
+            background: #1fc461;
+            width: 200px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 50%;
+            padding: 5px;
+            box-shadow: 60px -16px 50px gray;
+        }
     </style>
 </head>
 <body>
@@ -55,16 +96,50 @@
     </p>
 </div>
 
-<h2></h2>
-<p></p>
-<h3></h3>
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
+<div class="tool">
+    <p><strong>Донецький футбол до створення клубу</strong></p>
+</div>
+<div class="team">
+    <p>Першими футболістами на території Донеччини стали британські робітники (переважно валлійці), які приїхали сюди
+        працювати на металургійних підприємствах Джона Юза.
+    </p>
+    <p>
+        Восени 1911 року при заводі Новоросійського товариства (сучасний Донецький металургійний завод) відкрито
+        «Юзівське
+        спортивне товариство», у складі якого діяв футбольний гурток. Команда існувала до 1919 року і була найсильнішою
+        дружиною Юзівки у дорадянські часи. У 1920-х роках честь міста представляла команда клубу імені Леніна, основу
+        якої
+        становили робітники металургійного заводу. Одним з найвідоміших вихованців цієї команди став Віктор Шиловський —
+        майбутній футболіст і тренер «Динамо» (Київ). Саме колектив клубу ім. Леніна провів перший у Донбасі міжнародний
+        матч — восени 1924 року робітничу збірну Німеччини було розгромлено 5:0. В першій половині 1930-х років лідером
+        міського футболу стало «Динамо», яке успішно проводило товариські ігри з командами інших міст СРСР. Головним
+        суперником динамівців вважали «Буревісник», який виступав на одному з найкращих полів у Сталіно — у місці, де в
+        1936
+        році збудовано центральний стадіон «Шахтар»</p>
+</div>
+
+<h3>Головні тренери команди</h3>
+
+<div class="wrap">
+    <div class="coach">
+        <ul>
+            <li>Валерій Рудаков</li>
+            <li>Анатолій Бишовець</li>
+            <li>Невіо Скала</li>
+            <li>Валерій Яремченко</li>
+            <li>Бернд Шустер</li>
+        </ul>
+    </div>
+    <div class="coach">
+    <ul>
+        <li>Віктор Прокопенко</li>
+        <li>Мірча Луческу</li>
+        <li>Пауло Фонсека</li>
+        <li>Луіш Каштру</li>
+        <li>Роберто Де Дзербі</li>
+    </ul>
+</div>
+</div>
 
 </body>
 </html>
