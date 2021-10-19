@@ -1,0 +1,28 @@
+
+.xxx {
+    /*width: 1600px;*/
+    height: 900px;
+    background: gray;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: flex-start; /*horizontal*/
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /*column-gap: 20%;*/
+}
+
+.box {
+    flex-basis: 400px;
+    height: 100px;
+}
+
+.a {
+    background: silver;
+    flex-shrink: 1;
+}
+
+.b {
+    background: cornflowerblue;
+    flex-shrink: 2;
+}
+
