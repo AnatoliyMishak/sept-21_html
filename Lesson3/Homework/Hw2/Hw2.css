@@ -1,0 +1,52 @@
+.ppp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1400px;
+    font-size: 50px;
+}
+
+.header{
+    background: #1fc461;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    background: #2da07f;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+}
+.main{
+    height: 500px;
+    background: cornsilk;
+    flex-grow: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    height: 500px;
+    background: #f6e385;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    background: yellowgreen;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
