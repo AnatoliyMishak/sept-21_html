@@ -1,0 +1,48 @@
+.zzz{
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    font-size: 50px;
+}
+
+.header{
+    background: deepskyblue;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content{
+    height: 400px;
+    display: flex;
+    column-gap: 150px;
+   }
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    background: blue;
+    flex-grow: 1;
+}
+.bigger{
+    background: blue;
+    flex-grow: 1;
+}
+
+.huge{
+    background: blue;
+    flex-grow: 1;
+}
+.footer{
+    background: deepskyblue;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
