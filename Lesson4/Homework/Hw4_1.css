@@ -1,0 +1,47 @@
+:root {
+    --color_dark__pink: #862d83;
+    --color_light__pink: #da80ea;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--color_light__pink);
+    border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_block {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 5px;
+    border: 5px solid var(--color_dark__pink);
+    border-radius: 15px;
+}
+
+.header {
+    height: 200px;
+    flex-grow: 1;
+}
+.content{
+    display: flex;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.content_left{
+    flex-grow: 3;
+}
+.content_right{
+    flex-grow: 1;
+}
+
+.h400{
+    height: 400px;
+}
