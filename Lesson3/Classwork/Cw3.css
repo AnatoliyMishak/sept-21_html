@@ -35,7 +35,6 @@
 }
 .main_left__item{
     flex-grow: 1;
-    /*width: 33.33%;*/
     height: 150px;
     background: var(--color_light__green);
 }
