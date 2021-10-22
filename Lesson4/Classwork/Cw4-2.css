@@ -164,3 +164,25 @@
     font-size: 22px;
     font-weight: 700;
 }
+.footer{
+    background-color: var(--blue);
+
+}
+
+.footer__list{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 20px;
+}
+.footer_item{
+    height: 50px;
+    width: 50px;
+    background-color: var(--light);
+    border-radius: 10px;
+}
+.footer_text{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
