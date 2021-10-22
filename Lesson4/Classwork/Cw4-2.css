@@ -21,6 +21,7 @@
     align-items: center;
     padding: 0 25px;
     column-gap: 5px;
+    list-style: none;
 }
 
 .soc-icon__link{
