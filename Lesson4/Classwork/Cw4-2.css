@@ -1,0 +1,30 @@
+:root{
+    --blue: #092bd7;
+    --aqua: #1dd9d9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.soc-icon{
+    background-color: var(--aqua);
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 25px;
+    column-gap: 5px;
+}
+
+.soc-icon__link{
+    width: 25px;
+    height: 5px;
+    background-color: var(--blue);
+}
