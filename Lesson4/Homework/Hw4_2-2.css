@@ -1,0 +1,49 @@
+:root {
+    --color_light__green: #4be51b;
+    --color__yellow: #ece21c;
+    --color_light__blue: #74d3dc;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mgt{
+    margin-top: 20px;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.header_widgets{
+    height: 400px;
+    background: var(--color_light__green);
+}
+
+.size_widgets{
+    display: flex;
+    column-gap: 20px;
+}
+.widget{
+    flex-grow: 1;
+    height: 400px;
+    width: 420px;
+    background: var(--color__yellow);
+
+}
+
+.contact{
+    height: 600px;
+    background: var(--color_light__blue);
+}
