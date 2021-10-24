@@ -18,4 +18,35 @@
         width: 24%;
         padding: 0;
     }
+    .portfolio{
+        padding: 10px 0;
+    }
+    .portfolio__header{
+        text-align: start;
+        padding: 20px 150px;
+    }
+    .portfolio__grid__1, .portfolio__grid__2{
+        flex-direction: column;
+        row-gap: 25px;
+        width: 25%;
+    }
+    .feedback{
+        padding: 0;
+    }
+    .feedback__grid{
+        flex-direction: column;
+        padding: 0;
+    }
+    .feedback__left, .feedback__right{
+        padding: 15px;
+        flex-grow: 1;
+    }
+    .comment__button__left, .comment__button__right{
+        width: 150px;
+    }
+
+    .footer__list{
+        justify-content: flex-start;
+        padding: 20px 50px;
+    }
 }

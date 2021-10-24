@@ -283,11 +283,13 @@
 .feedback__right{
     background-color: var(--aqua);
     padding: 50px;
+    flex-grow: 1;
 }
 .feedback__left{
     padding: 50px;
     background-color: var(--blue);
     color: white;
+    flex-grow: 1;
 }
 
 .footer{
