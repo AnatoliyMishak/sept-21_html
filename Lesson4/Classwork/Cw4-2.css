@@ -164,6 +164,9 @@
     font-size: 22px;
     font-weight: 700;
 }
+.main__portfolio{
+    background-color: var(--light);
+}
 
 .portfolio {
     margin-top: 100px;
