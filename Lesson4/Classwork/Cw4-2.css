@@ -164,6 +164,53 @@
     font-size: 22px;
     font-weight: 700;
 }
+
+.feedback{
+    padding: 50px;
+}
+.comment__button__right{
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.comment__button__left{
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--aqua);
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.feedback__comment{
+    margin-top: 25px;
+}
+.feedback__grid{
+    display: flex;
+    padding: 100px;
+}
+.feedback__right{
+    background-color: var(--aqua);
+    padding: 50px;
+}
+.feedback__left{
+    padding: 50px;
+    background-color: var(--blue);
+    color: white;
+}
+
 .footer{
     background-color: var(--blue);
 
