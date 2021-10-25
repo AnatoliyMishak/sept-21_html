@@ -2,6 +2,13 @@
     .soc-icon{
         display: none;
     }
+    .header__top_grid{
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .nav{
+        display: block;
+    }
     .nav__buton{
         display: flex;
     }
@@ -15,7 +22,7 @@
         flex-direction: column;
     }
     .about__card{
-        width: 24%;
+        width: 70%;
         padding: 0;
     }
     .portfolio{
@@ -28,7 +35,7 @@
     .portfolio__grid__1, .portfolio__grid__2{
         flex-direction: column;
         row-gap: 25px;
-        width: 25%;
+        width: 80%;
     }
     .feedback{
         padding: 0;
