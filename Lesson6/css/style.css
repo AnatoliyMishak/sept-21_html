@@ -66,6 +66,7 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .nav__item img {
@@ -186,6 +187,9 @@ table {
     display: flex;
     column-gap: 31px;
     justify-content: center;
+    position: absolute;
+    bottom: -165px;
+    left: initial;
     }
 .kvadrat{
     width: 350px;
@@ -195,6 +199,7 @@ table {
     flex-direction: column;
     align-items: center;
     padding-top: 35px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
 .kvadrat img{
     width: 105px;
@@ -215,4 +220,9 @@ table {
     text-align: center;
     color: #656363;
     padding: 20px;
+}
+.hidden__kvadrat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
