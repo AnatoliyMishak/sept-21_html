@@ -30,4 +30,11 @@
     .header__title p::after{
         display: none;
     }
+    .main__kvadrat{
+        display: flex;
+        flex-direction: column;
+        row-gap: 31px;
+        bottom: -1000px;
+    }
+
 }
