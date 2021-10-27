@@ -182,4 +182,37 @@ table {
     border-radius: 50px;
     background: #FF7400;
 }
-
+.main__kvadrat{
+    display: flex;
+    column-gap: 31px;
+    justify-content: center;
+    }
+.kvadrat{
+    width: 350px;
+    height: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+.kvadrat img{
+    width: 105px;
+}
+.kvadrat__text{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.color_text{
+    color: #BC9060;
+}
+.kvadrat p{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+    padding: 20px;
+}
