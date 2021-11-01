@@ -1,0 +1,123 @@
+.main__choice__left{
+    background: url("Image/Carousel_bg.png") no-repeat center/cover;
+    border-radius: 30px;
+}
+.carousel-caption h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+    display: flex;
+    justify-content: flex-start;
+}
+.und__line{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+    display: flex;
+    justify-content: flex-start;
+}
+.new__price{
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+.old__price{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.carousel__btn {
+    width: 164px;
+    height: 40px;
+    left: 283px;
+    top: 159px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+.carousel__img__btn, .carousel__btn{
+    border: none;
+    background: #005BB9;
+    border-radius: 6px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.scepleniye__img img{
+    position: relative;
+    left: 450px;
+    width: 100%;
+    height: 100%;
+
+}
+.carousel-caption{
+    top: 80px;
+}
+.main__choice__right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.akcia__img img{
+    padding: 0 10px;
+}
+.akcia__top, .akcia__bottom{
+    background: #F4F5FA;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.mufta{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+.mufta__type{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.akcia__top h4, .akcia__bottom h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    padding: 10px;
+}
+.akcia__price{
+    column-gap: 10px;
+    padding: 20px;
+}
+.akcia__new__price{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.akcia__old__price{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.akcia__img__btn{
+    border: none;
+    background: #005BB9;
+    border-radius: 6px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 60px;
+}
+.cg{
+    column-gap: 10px;
+}
