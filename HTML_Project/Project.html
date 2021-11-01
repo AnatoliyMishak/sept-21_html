@@ -95,27 +95,32 @@
             <div class="feedback"><a href="#">форма обратной связи</a></div>
         </div>
     </div>
-    <div class="container d-flex justify-content-between">
-        <button type="button" class="btn btn-primary">Каталог</button>
+    <div class="container d-flex justify-content-between mt">
+        <div class="catalog d-flex justify-content-center">
+            <button class="catalog__img" type="button">
+                <img src="Image/Catalog_btn.png" alt="">
+            </button>
+            <button class="catalog__btn" type="button">Каталог</button>
+        </div>
         <nav class="search">
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Поиск по наименованию или артикулу" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Найти</button>
             </form>
         </nav>
-        <div class="shopping__guide d-flex">
-            <div class="enter d-flex">
+        <div class="shopping__guide d-flex align-items-center">
+            <div class="enter d-flex cg">
                 <div><img src="Image/enter%20logo.png" alt="Enter"></div>
-                <div><p>Войти</p></div>
+                <div><a href="#">Войти</a></div>
             </div>
-            <div class="favorite d-flex">
+            <div class="favorite d-flex cg">
                 <div><img src="Image/Favorite%20logo.png" alt="Heart"></div>
-                <div><p>Избранное</p></div>
+                <div><a href="#">Избранное</a></div>
             </div>
-            <div class="shopping__basket d-flex">
+            <div class="shopping__basket d-flex cg align-items-center">
                 <div><img src="Image/Shopping%20kart.png" alt="Kart"></div>
-                <div><p>В корзине
-                    нет товаров</p></div>
+                <div><a href="#">В корзине
+                    <br>нет товаров</br></a></div>
             </div>
         </div>
     </div>

@@ -36,12 +36,16 @@
 .header {
     left: 0;
     top: 36px;
+    height: 200px;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .mt {
     margin-top: 27px;
+}
+.cg{
+    column-gap: 10px;
 }
 
 .header__logo {
@@ -124,6 +128,34 @@
     color: #0F2438;
     text-align: right;
 }
+.form-control{
+    width: 550px;
+}
+.item{
+    width: 40px;
+    height: 5px;
+    background-color: black;
+}
+.btn-outline-success {
+    background-color: blue;
+}
+.catalog {
+    width: 164px;
+    height: 40px;
+    left: 283px;
+    top: 159px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
 .shopping__guide{
-    column-gap: 50px;
+    column-gap: 40px;
+}
+.shopping__guide a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
 }
