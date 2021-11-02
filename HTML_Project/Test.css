@@ -1,6 +1,7 @@
 .main__choice__left{
     background: url("Image/Carousel_bg.png") no-repeat center/cover;
     border-radius: 30px;
+    /*position: relative;*/
 }
 .carousel-caption h2{
     font-weight: 500;
@@ -63,11 +64,12 @@
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    max-width: 100%;
 }
 .akcia__img img{
-    padding: 0 10px;
+    padding: 0 0 10px;
 }
-.akcia__top, .akcia__bottom{
+.sell__akcia {
     background: #F4F5FA;
     border-radius: 10px;
     flex-grow: 1;
@@ -89,11 +91,9 @@
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
-    padding: 10px;
 }
 .akcia__price{
     column-gap: 10px;
-    padding: 20px;
 }
 .akcia__new__price{
     font-weight: bold;
@@ -118,6 +118,74 @@
     display: flex;
     min-width: 60px;
 }
+.pd{
+    padding: 10px;
+}
 .cg{
     column-gap: 10px;
+}
+.oil__filt__rad{
+    margin-top: 50px;
+}
+.three__items{
+    column-gap: 30px;
+}
+.oil{
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    flex-grow: 1;
+    width: 30%;
+    height: 200px;
+}
+.oil__filt__rad__desc{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.oil__filt__rad__desc h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A1A2C;
+}
+.oil__filt__rad__desc p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+.oil__pict img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.oil__btn{
+    width: 86px;
+    height: 26px;
+    left: 313px;
+    top: 850px;
+    background: #005BB9;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+{.main__choice__right{
+        width: 100%;
+        margin-top: 10px;
+    }
+
 }

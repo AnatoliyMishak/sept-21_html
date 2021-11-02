@@ -1,6 +1,16 @@
 @media screen and (max-width: 400px) {
-    .header__top__right, .header__info__left {
+    .header__top__right {
         display: none;
+    }
+    .main__choice__right{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .oil{
+        margin-top: 20px;
+    }
+    .three__buttons{
+    overflow: hidden;
     }
 
 }
