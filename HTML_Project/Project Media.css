@@ -10,7 +10,26 @@
         margin-top: 20px;
     }
     .three__buttons{
-    overflow: hidden;
+        max-width: 50%;
+    }
+    .pistone__card, .ring__card{
+        width: 49%;
+        margin-top: 20px;
+    }
+    .ring__image img{
+        margin-top: 6px;
+    }
+    .confirm__btn{
+        padding: 6px;
+    }
+    .card__confirm__diagram{
+        display: none;
+    }
+    .confirm__shop{
+        font-size: 15px;
+    }
+    .gray__line{
+        display: none;
     }
 
 }

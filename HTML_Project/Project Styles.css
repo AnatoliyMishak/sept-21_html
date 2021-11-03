@@ -369,7 +369,7 @@
 .first__btn__left{
     background: #005BB9;
     border-radius: 6px;
-    width: 241px;
+    max-width: 241px;
     height: 55px;
     font-weight: 500;
     font-size: 20px;
@@ -380,7 +380,7 @@
     border: 2px solid #005BB9;
     box-sizing: border-box;
     border-radius: 6px;
-    width: 123px;
+    max-width: 123px;
     height: 55px;
     font-weight: 500;
     font-size: 20px;
@@ -391,11 +391,136 @@
     border: 2px solid #005BB9;
     box-sizing: border-box;
     border-radius: 6px;
-    width: 229px;
+    max-width: 229px;
     height: 55px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #005BB9;
 }
+.pistone__image, .ring__image{
+    width: 100%;
+}
+.pistone__image img, .ring__image img{
+    width: 100%;
+}
 
+.pistone__card, .ring__card{
+    width: 24%;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.ring__image img{
+    margin-top: 13px;
+}
+
+.card__score{
+    column-gap: 5px;
+}
+.star__img img{
+    display: flex;
+    padding-top: 5px;
+}
+.card__feedback p{
+    margin-left: 5px;
+    font-weight: normal;
+    color: #B0B0B0;
+}
+.score p{
+    font-weight: 500;
+    color: #FFB800;
+}
+.card__price{
+    column-gap: 10px;
+    margin-top: 40px;
+}
+.price p{
+    font-weight: normal;
+    color: #000000;}
+
+.card__confirm{
+    column-gap: 30px;
+}
+.confirm__btn{
+    background: #005BB9;
+    border-radius: 6px;
+    max-width: 160px;
+    height: 49px;
+    align-items: center;
+    column-gap: 8px;
+    padding: 15px 25px;
+}
+.confirm__shop{
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.ring__card{
+    position: relative;
+}
+.ring__discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.show__more__btn{
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 187px;
+    height: 49px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #005BB9;
+}
+.show__more{
+    margin-top: 40px;
+}
+.news{
+    margin-top: 100px;
+}
+.news__header p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.gray__line{
+    height: 9px;
+    background: #F5F5F5;
+    margin-top: 15px;
+}
+.ball__item{
+    box-sizing: border-box;
+    height: 9px;
+    width: 9px;
+    background-color: black;
+    border-radius: 50%;
+}
+.news__block{
+    margin-top: 30px;
+    column-gap: 60px;
+    margin-left: 100px;
+}
+.third__november__news{
+    width: 265px;
+}
+.news__date{
+    width: 125px;
+    height: 25px;
+    background: #0C1A2A;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.news__link{
+    margin-top: 20px;
+}
+.news__description{
+    margin-top: 20px;
+}
