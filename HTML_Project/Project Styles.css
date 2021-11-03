@@ -493,6 +493,7 @@
     height: 9px;
     background: #F5F5F5;
     margin-top: 15px;
+    position: relative;
 }
 .ball__item{
     box-sizing: border-box;
@@ -501,6 +502,15 @@
     background-color: black;
     border-radius: 50%;
 }
+.ball__item::before{
+    content:"";
+    height: 40px;
+    width: 2px;
+    position: absolute;
+    background-color: black;
+    margin-left: 3px;
+}
+
 .news__block{
     margin-top: 30px;
     column-gap: 60px;

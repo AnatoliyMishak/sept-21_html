@@ -2,34 +2,51 @@
     .header__top__right {
         display: none;
     }
-    .main__choice__right{
+
+    .main__choice__right {
         width: 100%;
         margin-top: 10px;
     }
-    .oil{
+
+    .oil {
         margin-top: 20px;
     }
-    .three__buttons{
+
+    .three__buttons {
         max-width: 50%;
     }
-    .pistone__card, .ring__card{
+
+    .pistone__card, .ring__card {
         width: 49%;
         margin-top: 20px;
     }
-    .ring__image img{
+
+    .ring__image img {
         margin-top: 6px;
     }
-    .confirm__btn{
+
+    .confirm__btn {
         padding: 6px;
     }
-    .card__confirm__diagram{
+
+    .card__confirm__diagram {
         display: none;
     }
-    .confirm__shop{
+
+    .confirm__shop {
         font-size: 15px;
     }
-    .gray__line{
+
+    .gray__line {
         display: none;
+    }
+
+    .news__block {
+        margin: 0;
+    }
+
+    .third__november__news {
+        width: 100%;
     }
 
 }
