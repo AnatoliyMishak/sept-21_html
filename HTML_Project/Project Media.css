@@ -7,7 +7,27 @@
         width: 100%;
         margin-top: 10px;
     }
-
+.contact__us{
+    margin-top: 28px;
+}
+.whatsup__contact{
+    margin-top: 10px;
+}
+.search__block__for__media{
+    column-gap: 20px;
+    margin: 0 10px;
+}
+.button__for__media{
+    background: #005BB9;
+    border-radius: 4px;
+    }
+.button__for__media img{
+    display: flex;
+    align-items: center;
+}
+.input-group button{
+    padding: 0 15px;
+}
     .oil {
         margin-top: 20px;
     }

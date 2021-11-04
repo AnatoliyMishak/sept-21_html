@@ -352,7 +352,7 @@
 }
 
 .oil__btn{
-    width: 86px;
+    max-width: 86px;
     height: 26px;
     left: 313px;
     top: 850px;
@@ -533,4 +533,58 @@
 }
 .news__description{
     margin-top: 20px;
+}
+.main__footer{
+    background: #0C1A2A;
+    margin-top: 120px;
+}
+.footer{
+    flex-wrap: wrap;
+}
+.footer__list{
+    margin-top: 35px;
+}
+.lh{
+    line-height: 16px;
+}
+
+.fhd{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+.fld{
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer__list, .footer__list__second__row{
+    column-gap: 60px;
+}
+.input-group button{
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social__network{
+    margin-top: 30px;
+    column-gap: 50px;
+}
+.bottom__gray__line{
+    height: 2px;
+    background: #F5F5F5;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.all__rights__reserved p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #737E9B;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
