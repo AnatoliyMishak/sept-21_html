@@ -1,24 +1,46 @@
-.main__choice__left{
+.main__choice{
+    margin-top: 30px;
+    }
+.main__choise__left{
     background: url("Image/Carousel_bg.png") no-repeat center/cover;
     border-radius: 30px;
-    /*position: relative;*/
+    position: relative;
 }
-.carousel-caption h2{
+.main__choise__left__arrow_left img{
+    position: absolute;
+    top: 150px;
+    left: -10px;
+}
+.main__choise__left__arrow_right img{
+    position: absolute;
+    top: 150px;
+    right: -10px;
+}
+.cg{
+    column-gap: 10px;
+}
+.main__choise__left__description{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main__choise__left__description__text{
+    width: 100%;
+}
+.main__choise__left__description__text h2{
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
     color: #0A1A2C;
-    display: flex;
-    justify-content: flex-start;
 }
-.und__line{
+.main__choise__left__description__und__line{
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
     text-decoration-line: underline;
     color: #717171;
-    display: flex;
-    justify-content: flex-start;
 }
 .new__price{
     font-weight: 500;
@@ -33,33 +55,33 @@
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-.carousel__btn {
-    width: 164px;
-    height: 40px;
-    left: 283px;
-    top: 159px;
+.main__choise__left__description__btn{
     background: #005BB9;
     border-radius: 6px;
-}
-.carousel__img__btn, .carousel__btn{
-    border: none;
-    background: #005BB9;
-    border-radius: 6px;
-    color: white;
-    justify-content: center;
-    align-items: center;
+    width: 160px;
+    height: 49px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
-.scepleniye__img img{
-    position: relative;
-    left: 450px;
-    width: 100%;
-    height: 100%;
 
+
+.main__choise__left__img{
+    max-width: 50%;
 }
-.carousel-caption{
-    top: 80px;
+.main__choise__left__img img{
+    width: 100%;
 }
+.main__choise__left__bottom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+
 .main__choice__right{
     display: flex;
     flex-direction: column;
@@ -121,61 +143,6 @@
 .pd{
     padding: 10px;
 }
-.cg{
-    column-gap: 10px;
-}
-.oil__filt__rad{
-    margin-top: 50px;
-}
-.three__items{
-    column-gap: 30px;
-}
-.oil{
-    background: #FFFFFF;
-    border: 1px solid #E1E5F8;
-    box-sizing: border-box;
-    border-radius: 6px;
-    flex-grow: 1;
-    width: 30%;
-    height: 200px;
-}
-.oil__filt__rad__desc{
-    padding-left: 20px;
-    padding-top: 30px;
-}
-.oil__filt__rad__desc h4{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    color: #0A1A2C;
-}
-.oil__filt__rad__desc p{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: #0A1A2C;
-}
-.oil__pict img{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.oil__btn{
-    width: 86px;
-    height: 26px;
-    left: 313px;
-    top: 850px;
-    background: #005BB9;
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
 
 
 
@@ -183,9 +150,58 @@
 
 
 @media screen and (max-width: 400px) {
-{.main__choice__right{
+    .main__choice__right {
         width: 100%;
         margin-top: 10px;
+    }
+
+    .main__choise__left {
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+        padding: 10px;
+    }
+    .main__choise__left__description__text h2{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #0A1A2C;
+    }
+    .main__choise__left__description__und__line{
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-decoration-line: underline;
+        color: #717171;
+    }
+    .new__price{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        color: #005BB9;
+    }
+    .old__price{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+    }
+    .main__choise__left__description__btn{
+        background: #005BB9;
+        border-radius: 6px;
+        width: 120px;
+        height: 39px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
     }
 
 }

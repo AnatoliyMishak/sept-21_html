@@ -176,27 +176,46 @@
 .main__choice{
     margin-top: 30px;
 }
-.main__choice__left{
+.main__choise__left{
     background: url("Image/Carousel_bg.png") no-repeat center/cover;
     border-radius: 30px;
-    /*position: relative;*/
+    position: relative;
 }
-.carousel-caption h2{
+.main__choise__left__arrow_left img{
+    position: absolute;
+    top: 150px;
+    left: -10px;
+}
+.main__choise__left__arrow_right img{
+    position: absolute;
+    top: 150px;
+    right: -10px;
+}
+.cg{
+    column-gap: 10px;
+}
+.main__choise__left__description{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main__choise__left__description__text{
+    width: 100%;
+}
+.main__choise__left__description__text h2{
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
     color: #0A1A2C;
-    display: flex;
-    justify-content: flex-start;
 }
-.und__line{
+.main__choise__left__description__und__line{
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
     text-decoration-line: underline;
     color: #717171;
-    display: flex;
-    justify-content: flex-start;
 }
 .new__price{
     font-weight: 500;
@@ -211,32 +230,30 @@
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-.carousel__btn {
-    width: 164px;
-    height: 40px;
-    left: 283px;
-    top: 159px;
+.main__choise__left__description__btn{
     background: #005BB9;
     border-radius: 6px;
-}
-.carousel__img__btn, .carousel__btn{
-    border: none;
-    background: #005BB9;
-    border-radius: 6px;
-    color: white;
-    justify-content: center;
-    align-items: center;
+    width: 160px;
+    height: 49px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
-.scepleniye__img img{
-    position: relative;
-    left: 450px;
-    width: 100%;
-    height: 100%;
 
+
+.main__choise__left__img{
+    max-width: 50%;
 }
-.carousel-caption{
-    top: 80px;
+.main__choise__left__img img{
+    width: 100%;
+}
+.main__choise__left__bottom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
 }
 .main__choice__right{
     display: flex;
